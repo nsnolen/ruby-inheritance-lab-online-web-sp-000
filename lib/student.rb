@@ -9,6 +9,6 @@ class Student < User
   end
 
   def knowledge
-    studnet.knowldge
+    studnet.knowledge == self
   end
 end
