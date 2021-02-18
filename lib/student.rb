@@ -9,6 +9,6 @@ class Student < User
   end
 
   def knowledge
-    student.knowledge == self
+    knowledge
   end
 end
